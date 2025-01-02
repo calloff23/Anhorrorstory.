@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+#game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    border: 2px solid white;
+}
+
+#storyText {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: lightgrey;
+    font-size: 18px;
+    width: 750px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
